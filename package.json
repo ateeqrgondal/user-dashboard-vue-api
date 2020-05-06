@@ -1,0 +1,64 @@
+{
+  "name": "doctor-clinic-portal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "stage-build": "vue-cli-service build --mode staging",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@pderas/vue2-geocoder": "^1.1.0",
+    "axios": "^0.18.0",
+    "html2canvas": "^1.0.0-alpha.12",
+    "jquery": "^3.3.1",
+    "jspdf": "^1.5.3",
+    "lodash": "^4.17.11",
+    "vee-validate": "^2.2.0",
+    "vue": "^2.6.10",
+    "vue-html2canvas": "0.0.4",
+    "vue-infinite-loading": "^2.4.3",
+    "vue-moment": "^4.0.0",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.1",
+    "vue-search-select": "^2.8.3",
+    "vue-star-rating": "^1.6.1",
+    "vue2-google-maps": "^0.10.6",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-async-to-generator": "^7.4.0",
+    "@vue/cli-plugin-babel": "^3.5.1",
+    "@vue/cli-plugin-eslint": "^3.5.1",
+    "@vue/cli-service": "^3.5.1",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": false,
+    "env": {
+      "node": false
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
