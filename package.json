@@ -12,7 +12,7 @@
     "@pderas/vue2-geocoder": "^1.1.0",
     "axios": "^0.18.0",
     "html2canvas": "^1.0.0-alpha.12",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "jspdf": "^1.5.3",
     "lodash": "^4.17.11",
     "vee-validate": "^2.2.0",
